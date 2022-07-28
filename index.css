@@ -32,8 +32,8 @@ body {
     background-size: cover;
     }
 
-    ul {
-        display: table; 
-        margin: 0 auto;
-        text-align: left;
+ul {
+    display: table; 
+    margin: 0 auto;
+    text-align: left;
     }
