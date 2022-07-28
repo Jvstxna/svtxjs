@@ -1,4 +1,4 @@
-.title {
+          .title {
                 color: rgb(150, 22, 22);
                 text-shadow: 4px 4px 9px #000000;
                 text-align: center;
@@ -6,13 +6,13 @@
                 font-family: 'Cormorant SC', serif;
                 font-weight: 700;
                 position: absolute;
-                top: 25%;
+                top: 30%;
                 left: 50%;
                 transform: translateX(-50%)translateY(-50%);
                 margin-top: 20px;
             }
             
-.p-text{
+            .p-text{
                 color: rgb(255, 255, 255);
                 text-align: center;
                 text-shadow: 4px 4px 9px #000000;
@@ -21,20 +21,55 @@
                 font-family: 'Roboto Slab', serif;
                 font-weight: 500;
                 position: absolute;
-                top: 55%;
+                top: 58%;
                 left: 50%;
                 transform: translateX(-50%)translateY(-50%);
                 margin-top: 20px;
             }
+          
             
-body { 
-                background-image:url('https://media.discordapp.net/attachments/983337280339071046/1002295462986006581/train.gif?width=480&height=270');
-                background-repeat:repeat; 
-                background-size: cover;
-                }
-            
-ul {
+            ul {
                 display: table; 
                 margin: 0 auto;
                 text-align: left;
              }
+
+
+/*For styling*/
+
+
+*{
+  margin:0;
+  padding:0;
+  font-family:verdana;
+}
+#abc{
+  width:100%;
+  height:100vh;
+  background-image: url(img2.jpg);
+  background-size: cover;
+}
+nav{
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+}
+nav ul{
+  float: right;
+  margin-right: 30px;
+}
+nav ul li{
+  text-shadow: 4px 4px 9px #000000;
+  list-style-type: none;
+  display: inline-block;
+  transition: 0.7s all;
+}
+nav ul li:hover{
+  background-color:#d04343;
+  border-radius: 10px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 30px;
+}
