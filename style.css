@@ -1,5 +1,9 @@
+body {
+  background-color: #121212;
+}
+
 .title {
-                color: rgb(150, 22, 22);
+                color: rgb(146, 26, 26);
                 text-shadow: 4px 4px 9px #000000;
                 text-align: center;
                 font-size: 100px;
@@ -10,7 +14,8 @@
                 left: 50%;
                 transform: translateX(-50%)translateY(-50%);
                 margin-top: 20px;
-            }
+                user-select: none
+}
             
 .p-text{
                 color: rgb(255, 255, 255);
@@ -25,14 +30,22 @@
                 left: 50%;
                 transform: translateX(-50%)translateY(-50%);
                 margin-top: 20px;
-            }
+}
           
             
 ul {
                 display: table; 
                 margin: 0 auto;
                 text-align: left;
-             }
+  }
+
+
+/*For styling*/
+
+.imageContainer > img:hover {
+  width: 1000px;
+  height: 600px;
+}
 
 *{
   margin:0;
@@ -46,6 +59,7 @@ ul {
   background-size: cover;
 }
 nav{
+  position: fixed;
   width: 100%;
   height: 50px;
   line-height: 50px;
@@ -68,4 +82,79 @@ nav ul li a{
   text-decoration: none;
   color: #fff;
   padding: 30px;
+}
+
+.UpTitle {
+                color: rgb(150, 22, 22);
+                text-shadow: 4px 4px 9px #000000;
+                text-align: center;
+                font-size: 80px;
+                font-family: 'Cormorant SC', serif;
+                font-weight: 700;
+                position: absolute;
+                top: 10%;
+                left: 50%;
+                transform: translateX(-50%)translateY(-50%);
+                margin-top: 20px;
+}
+
+
+
+body { 
+  background: url(texture.png) no-repeat center center fixed; 
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header {
+    background: #333;
+    width: 100%;
+}
+.global-nav {
+    font-size: 20px;
+    text-align: center;
+    list-style-type: none;
+    background-color:#F3F3F3;
+    line-height: 40px;
+    position: relative;
+}
+.global-nav ul {
+    padding: 10px 0;
+    margin: 0;
+}
+.global-nav li {
+    display: inline-block;
+}
+.nav-link a {
+    padding: 20px;
+    color: #000000;
+    text-decoration: none;
+}
+.nav-link:hover {
+    background-image: #F3F3F3;
+    color: #000000;
+}
+.nav-left {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+h1 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 200px;
+  margin: 0;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
