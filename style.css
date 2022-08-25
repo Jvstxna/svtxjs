@@ -1,0 +1,317 @@
+/* body */
+
+body {
+    background-color: #6D6CAB;
+    min-height:1050px;
+}
+
+body::-webkit-scrollbar{
+  display:none;
+}
+/* body */
+
+
+
+
+
+
+
+
+/*NavBaras*/
+  
+  nav{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+  }
+  nav ul{
+    float: left;
+    margin-top: 5px;
+    margin-left: 700px;
+  }
+  nav ul li{
+    text-shadow: 4px 4px 9px #000000;
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.7s all;
+  }
+  nav ul li:hover{
+    background-color:#5A598A;
+    border-radius: 10px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 30px;
+  }
+
+
+.dropdown {
+    float: right;
+    overflow: hidden;
+  }
+  
+
+  .dropdown .dropbtn {
+    border: none;
+    outline: none;
+    color: white;
+    font-family: 'Cormorant SC', serif;
+    font-family: 'Roboto Slab', serif;
+    font-size: 17px;
+    padding: 14px 16px;
+    background-color: inherit;
+    margin: 0; 
+    text-shadow: 4px 4px 9px #000000;
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.7s all;
+    text-decoration: none;
+    padding: 15px;
+  }
+
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #5A598A;
+    border-radius: 10px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    background-color: #5A598A;
+    font-family: 'Cormorant SC', serif;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding:4px px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #A5A4FF;
+    transition: 0.7s all;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  /*NavBaras*/
+
+
+
+
+
+/*Pavadinimai*/
+.title {
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 9px #ffffff;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Cormorant SC', serif;
+    font-weight: 700;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-150%);
+    margin-top: 20px;
+    user-select: none
+}
+/*Pavadinimai*/
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Logo n name near nav */
+  
+  .logo img{
+    user-select: none;
+    position: fixed;
+    margin-top:0px;
+    margin-left:20px;
+    width: auto;
+    height:40px;
+  }
+
+  /* Logo n name near nav */
+
+
+
+
+
+  /* Portfolio card */
+
+  html, body{
+    color: rgb(255, 255, 255);
+    font-family: Lato, Arial, sans-serif;
+    font-size: 16px;
+    height: 100vh;
+  }
+  h6 {
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  h5{
+    font-size: 18px;
+    font-family: Michroma, sans-serif;
+    margin-bottom: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+  h6 {
+    font-size: 30px;
+  }
+
+.cards {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%)translateY(-30%);
+  border: 50px solid #5A598A;
+  box-shadow: 5px 0px 5px #000000;
+  border-radius: 20px;
+  background-color: #5A598A;
+  width: 350px;
+  margin: 10px auto;
+}
+
+img.avatar {
+  box-shadow: 0px 0px 10px #ffffff;
+  border-radius: 100%;
+  height: 100px;
+  width: 100px;
+}
+
+.avatarBorder {
+  text-align: center;
+}
+
+.card-footer ul li {
+  display: inline-block;
+  margin: 20px;
+  font-size: 10px;
+}
+
+/* Portfolio card */
+
+
+
+
+
+/* Cards  */
+
+.card {
+  position: absolute;
+  border: 20px solid #5A598A;
+  box-shadow: 5px 0px 5px #000000;
+  border-radius: 10px;
+  background-color: #5A598A;
+  width: 350px;
+  margin: 250px 200px;
+}
+
+.card2 {
+  position: absolute;
+  border: 20px solid #5A598A;
+  box-shadow: 5px 0px 5px #000000;
+  border-radius: 10px;
+  background-color: #5A598A;
+  width: 350px;
+  margin: 250px 600px;
+}
+
+.card3 {
+  position: absolute;
+  border: 20px solid #5A598A;
+  box-shadow: 5px 0px 5px #000000;
+  border-radius: 10px;
+  background-color: #5A598A;
+  width: 350px;
+  margin: 250px 1000px;
+}
+
+.card4 {
+  position: absolute;
+  border: 20px solid #5A598A;
+  box-shadow: 5px 0px 5px #000000;
+  border-radius: 10px;
+  background-color: #5A598A;
+  width: 350px;
+  margin: 250px 1400px;
+}
+
+.card5 {
+  position: absolute;
+  border: 20px solid #5A598A;
+  box-shadow: 5px 0px 5px #000000;
+  border-radius: 10px;
+  background-color: #5A598A;
+  width: 350px;
+  margin: 630px 200px;
+}
+
+.card6 {
+  position: absolute;
+  border: 20px solid #5A598A;
+  box-shadow: 5px 0px 5px #000000;
+  border-radius: 10px;
+  background-color: #5A598A;
+  width: 350px;
+  margin: 630px 600px;
+}
+
+.card7 {
+  position: absolute;
+  border: 20px solid #5A598A;
+  box-shadow: 5px 0px 5px #000000;
+  border-radius: 10px;
+  background-color: #5A598A;
+  width: 350px;
+  margin: 630px 1000px;
+}
+
+.card8 {
+  position: absolute;
+  border: 20px solid #5A598A;
+  box-shadow: 5px 0px 5px #000000;
+  border-radius: 10px;
+  background-color: #5A598A;
+  width: 350px;
+  margin: 630px 1400px;
+}
+
+.btn {
+  color: #fff;
+  border: 10px solid #A5A4FF;
+  border-radius: 50px;
+  background-color: #A5A4FF;
+
+}
+
+.img {
+  height: 200px;
+  width: 300px;
+}
+
+
+/* Cards */
